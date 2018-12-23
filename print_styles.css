@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+body {
+	font-family: Cambria, Georgia, "Times New Roman", serif; 
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+	
+}
+
+header img {
+	display: none;
+}
+
+header a:link, header a:visited, section a:link, section a:visited, footer a:link, footer a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: "Bitter", Verdana, Arial, Helvetica, sans-serif;
+}
+
+abbr {
+	border: none;
+}
+
+nav {
+	display: none;
+}
+

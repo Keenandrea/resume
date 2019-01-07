@@ -1,67 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter);
 
-header, nav, section, footer	{
+header, nav, section, footer {
 	display: block;
 }
 
-
-
-body	{
+body {
 	font-family: "Bitter", Verdana, Arial, Helvetica, sans-serif; 
 	font-size: 100%;
-	margin:	0;
-	background-color: #FFFCD0;
 	width: 760px;
 	display: block;
 	margin: 0 auto;
+	padding-top: 25px;
+	background-color: #FFFCD0;
 	/* text-align: center; */
-}
-
-#centermaker {
-	width: 960px;
-	margin: 0 auto;
-/* text-align: left; */
-}
-
-#wrapper	{
-	max-width: 760px;
-	margin:	0 auto;
-	background-color: #FFFFFF;
-	/* background-color: rgba(255,255,255,0.85)*/
 }
 
 #menutoggle	{
 	display: none;
-}
-
-.nav-collapse	{
-	clear: both;
-	background-color: #FFFCD0;
-	line-height: 30px;
-	width: 1100px;
-}
-
-.nav-collapse ul	{
-	margin: 5px 0;
-	padding-left: 0;
-	text-align: center; 
-	}
-
-.nav-collapse ul li	{
-	list-style-type: none;
-	display: inline;
-}
-
-.nav-collapse a:link, .nav-collapse a:visited	{
-	color: #000000;
-	text-decoration: none;
-	padding: 2px 45px;
-}
-
-.nav-collapse a:hover	{
-	background-color: #CEE8D7;
-	height: 6px;
-	transition: .5s;
 }
 
 header, section, footer	{
@@ -80,15 +35,27 @@ header a:hover, section a:hover {
 	text-decoration: none;
 }
 
-hr. margin {
-	margin-top: 30px;
-	margin-bottom: 40px;
-}
-
 hr {
 	border-color: #000000;
-	border-style: solid;
-	border-width: 3px;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 4px;
+	clear: both;
+}
+
+.slim {
+	border-color: #000000;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
 	clear: both;
 }
 
@@ -97,7 +64,6 @@ h1	{
 	font-size: 300%;
 	letter-spacing: 0.1em;
 	text-shadow: 1px 1px #bbb;
-	margin-bottom: 0;
 	text-align: center;
 	color: #000000;
 }
@@ -110,16 +76,7 @@ address	{
 	font-style: normal; 
 }
 
-abbr[title] {
-	text-decoration: none;
-}
-
-abbr	{
-	border-bottom: 1px dotted #CEE8D7;
-	cursor: help;
-}
-
-section padding{
+section padding {
 	margin-top:	0;
 	margin-bottom: 4px;
 }
@@ -141,10 +98,10 @@ h4	{
 	font-weight: bold;
 }
 
-section ul	{
+/*section ul	{
 	margin-top: 16px;
 	margin-bottom: 4px;
-}
+}*/
 
 .title {
 	font-weight: bold;
@@ -162,9 +119,9 @@ section ul	{
 }
 
 
-div {
+/*div {
 	display: block;
-}
+}*/
 
 #ref address{
 	margin-top: 0;
@@ -177,6 +134,7 @@ div {
 	width: 25px;
 	padding: 0;
 	margin: 0;
+	background-color: transparent;
 }
 
 footer	{
@@ -241,12 +199,5 @@ footer a	{
 	.col {
 		float: none;
 		width: 100%;
-	}
-	
-	
-	
-	
-	
-	
-	
+	}	
 }
